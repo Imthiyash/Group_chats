@@ -1,0 +1,143 @@
+.body{
+    background-color: solid #B5C0D0;
+}
+
+.flex-container1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    font-size: large;
+    background-color: black; 
+    color: white;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container2>*{
+    height: 40px;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 70vh;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    border: 100px solid #B5C0D0;
+    border-top: 50px solid #B5C0D0;
+}
+
+.Groups,.group-chat{
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: #CCD3CA;
+}
+
+.group-chat{
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: #E78895;
+}
+
+.flex-container2>*{
+    height: auto;
+    border: solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 2px;
+    background-color: #FFF7F1;
+}
+
+.flex-container2>*:hover{
+    padding : 11px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Groups > *{
+    height: 30px;
+    padding : 10px;
+    padding-left: 30px;
+    border: solid black;
+    line-height: 30px;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: #F5E8DD;
+}
+
+.Groups > *:hover{
+    font-weight: bold;
+    height: 30px;
+    padding : 11px;
+    padding-left: 30px;
+    background-color: #EED3D9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.Groups > *:active{
+    font-weight: bold;
+    /* height: 30px;
+    padding : 11px;
+    padding-left: 30px; */
+    background-color: #E78895;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); */
+}
+
+.title{
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: #EED3D9;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container2>*{
+    justify-content: left;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+}
+
+.Name{
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 15px;
+    height :15px;
+    padding: 1px;
+}
+
+.flex-container2>.Name:hover{
+    padding : 2px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container4{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.msg-box{
+    padding: 10px;
+}
+
+#textbox{
+    width :400px;
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 10px;
+}
